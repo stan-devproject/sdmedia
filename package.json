@@ -1,0 +1,19 @@
+{
+  "name": "sdmedia",
+  "version": "1.0.0",
+  "description": "Base check",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stan-devproject/sdmedia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stan-devproject/sdmedia/issues"
+  },
+  "homepage": "https://github.com/stan-devproject/sdmedia#readme"
+}
