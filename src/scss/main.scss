@@ -11,7 +11,7 @@ $hamburger-padding-x: 5px !default;
 .container {
   background-image: url('../img/bitmap.png');
   background-repeat: no-repeat;
-  width: 320px;
+  width: 100%;
 
   @media only screen
          and (min-device-width : 414px)

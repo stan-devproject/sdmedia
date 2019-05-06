@@ -1112,7 +1112,7 @@ template {
 .container {
   background-image: url(fb050eb3c8100b6d9b0e269755862612.png);
   background-repeat: no-repeat;
-  width: 320px;
+  width: 100%;
   object-fit: contain;
   padding-top: 15px;
   font-family: 'Raleway', sans-serif;
