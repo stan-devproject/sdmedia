@@ -31,9 +31,13 @@ $hamburger-padding-x: 5px !default;
 }
 
 .logo {
+  background-image: url('../img/logo.png');
+  background-repeat: no-repeat;
+  background-size: 53px 53px;
+
   width: 53px;
   height: 53px;
-  padding-left: 12px;
+  margin-left: 12px;
 }
 
 .logo img {
