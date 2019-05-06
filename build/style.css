@@ -1112,7 +1112,12 @@ template {
 .container {
   background-image: url(fb050eb3c8100b6d9b0e269755862612.png);
   background-repeat: no-repeat;
-  width: 100%;
+  width: 320px;
+  /*@media only screen
+         and (min-device-width : 414px)
+         and (max-device-width : 736px) {
+     width: 100%;
+  }*/
   object-fit: contain;
   padding-top: 15px;
   font-family: 'Raleway', sans-serif;
@@ -1121,9 +1126,6 @@ template {
   line-height: 23px;
   letter-spacing: normal;
   color: #3f4b57; }
-  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
-    .container {
-      width: 100%; } }
 
 .header-container {
   display: flex;
