@@ -12,6 +12,14 @@ $hamburger-padding-x: 5px !default;
   background-image: url('../img/bitmap.png');
   background-repeat: no-repeat;
   width: 320px;
+
+  @media only screen
+         and (min-device-width : 414px)
+         and (max-device-width : 736px) {
+     width: 100%;
+  }
+
+
   //margin: auto;
   object-fit: contain;
   padding-top: 15px;
